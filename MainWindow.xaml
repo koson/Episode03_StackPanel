@@ -6,10 +6,7 @@
         xmlns:local="clr-namespace:Episode03_StackPanel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-
-    <StackPanel >
+    <Grid >
         
-        
-    </StackPanel>
-
+    </Grid>
 </Window>
