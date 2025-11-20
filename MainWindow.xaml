@@ -8,14 +8,15 @@
         Title="MainWindow" Height="450" Width="800">
 
     <Grid>
+            
         <StackPanel HorizontalAlignment="Left" 
                     VerticalAlignment="Center" 
                     Background="Azure" 
                     Margin="30">
-            <Button Name="MyButton1" Width="100" Height="30" Content="Button 1" Margin="5"/>
-            <Button Name="MyButton2" Width="100" Height="30" Content="Button 2" Margin="5"/>
-            <Button Name="MyButton3" Width="100" Height="30" Content="Button 3" Margin="5"/>
-            <Button Name="MyButton4" Width="100" Height="30" Content="Button 4" Margin="5"/>
+                <Button Name="MyButton1" Width="100" Height="30" Content="Button 1" Margin="5"/>
+                <Button Name="MyButton2" Width="100" Height="30" Content="Button 2" Margin="5"/>
+                <Button Name="MyButton3" Width="100" Height="30" Content="Button 3" Margin="5"/>
+                <Button Name="MyButton4" Width="100" Height="30" Content="Button 4" Margin="5"/>
         </StackPanel>
 
         <StackPanel HorizontalAlignment="Left" 
@@ -29,5 +30,21 @@
             <Button Name="MyButton7" Padding="10, 0, 10, 0" Height="30" Content="Draw" Margin="1"/>
             <Button Name="MyButton8" Padding="10, 0, 10, 0" Height="30" Content="Help" Margin="1"/>
         </StackPanel>
+
+        <StackPanel HorizontalAlignment="right" 
+                    VerticalAlignment="center" 
+                    Orientation="Horizontal" 
+                    Background="Beige" 
+                    Width="300"
+                    Height="auto">
+            <TextBlock VerticalAlignment="Center" Margin="5" FontSize="20">
+                    Stack Panel <LineBreak/>
+                     - จัดเรียง control ใน panel <LineBreak/>
+                     - ได้ทั้งแนวตั้งและแนวนอน <LineBreak/>
+                     - ไม่ wrap ตัว control <LineBreak/>
+                     - ใช้ Margin ได้ แต่ Padding ไม่ได้
+            </TextBlock>
+        </StackPanel>
+
     </Grid>
 </Window>
